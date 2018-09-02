@@ -1,0 +1,12 @@
+class Rectangle:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+    def area(self):
+        print('Area of rectangle ', self.length*self.width)
+
+rectangle1 = Rectangle(3,4)
+rectangle1.area()
+
+## OUTPUT
+### Area of rectangle 12
